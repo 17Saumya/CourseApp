@@ -31,7 +31,7 @@ const Faculty=({faculty ,update})=>{
         <card  className="text-center">
             <CardBody>
                 <CardSubtitle className="font-weight-bold"><p>Faculty Name:: {faculty.name}</p></CardSubtitle>
-                <CardText><p>Faculty Department:: {faculty.department} </p></CardText>
+                <CardText><p>Faculty Department: {faculty.department} </p></CardText>
                 <Container className="text-center">
                     <Button 
                         color="danger" 
@@ -40,7 +40,7 @@ const Faculty=({faculty ,update})=>{
                     }}>
                         Delete
                     </Button>
-                    <Button color="warning ml-3">Update</Button>    
+                    {/* <Button color="warning ml-3">Update</Button>     */}
                 </Container>          
             </CardBody>
         </card>

@@ -6,39 +6,56 @@ import { Link } from "react-router-dom";
 
 
 
-/*const Menus=()=>{
+const Menus=()=>{
     return(
-        <ListGroup>      
-            <Link className="List-group-item list-group-action" tag="a"  to="/" action>
-              Home  
-            </Link>
+        <ListGroup>
+          <ListGroupItem>     
+            {/* <Link a   to="/logout" action>
+              logout  
+            </Link> */}
+            </ListGroupItem> 
 
-            <Link className="List-group-item list-group-action" tag="a" to="/add-course" action>
+            <ListGroupItem>
+            <Link a   to="/add-course" action>
               Add Course 
             </Link>
-            
+            </ListGroupItem>
 
-            <Link className="List-group-item list-group-action" tag="a" to="/view-courses" action >
+            <ListGroupItem>
+            <Link a  to="/view-courses" action >
               View Courses 
             </Link>
-            <Link className="List-group-item list-group-action" tag="a" to="#" action>
-              About  
-            </Link>
+            </ListGroupItem>
 
-            <Link className="List-group-item list-group-action" tag="a" to="#" action>
-              Contact  
+
+            {/* <ListGroupItem>
+            <Link a className="List-group-item list-group-action"  to="/add-faculty" action >
+              Add Faculty
             </Link>
+            </ListGroupItem>
+
+            <ListGroupItem>
+            <Link a className="List-group-item list-group-action"  to="/view-faculties" aria-current="page" action >
+              View Faculties 
+            </Link>
+            </ListGroupItem> */}
+
+            <ListGroupItem>
+            <Link a className="List-group-item list-group-action"  to="/studentpurchase" aria-current="page" action >
+              Student Register Details
+            </Link>
+            </ListGroupItem>
         </ListGroup>
 
         
     );
-}*/
-
+}
+export default Menus;
  
 
 
 
-const Menus=()=>{
+{/*const Menus=()=>{
     return(
 
       
@@ -47,7 +64,7 @@ const Menus=()=>{
             {/*<ListGroupItem  className="List-group-item list-group-action"  tag="a" href="/Form" action>
               Sign up
             </ListGroupItem>*/}
-           <ListGroupItem  className="List-group-item list-group-action"  tag="a" href="/" action>
+        {/*   <ListGroupItem  className="List-group-item list-group-action"  tag="a" href="/" action>
               Home  
           </ListGroupItem>
 
@@ -82,10 +99,10 @@ const Menus=()=>{
             <ListGroupItem className="List-group-item list-group-action" tag="a" href="#" action>
               Contact  
             </ListGroupItem>*/}
-      </ListGroup>
+    {/*}  </ListGroup>
         
     )
-};
+};*/}
 
 
-export default Menus;
+

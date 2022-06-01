@@ -1,0 +1,21 @@
+import React, { Component } from 'react'
+import { Button } from 'reactstrap';
+class UserLogout extends Component {
+
+ logout = () => {
+    localStorage.clear();
+// you can also like localStorage.removeItem('Token');
+    window.location.href = "/login";
+  }
+ 
+//   render() {
+//     return (
+//       // <Button onClick={this.logout}>Logout</Button>
+//     )
+//   }
+//   {
+//     (localStorage.getItem("isLogged")=="true")?
+//     // "":<Navigate to="/login" />
+//   }
+ }
+export default UserLogout;

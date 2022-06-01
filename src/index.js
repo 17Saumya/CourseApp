@@ -7,13 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import { BrowserRouter } from 'react-router-dom';
-import AdminApp from './AdminApp';
+import Login from './components/Login';
+
 
 //import Jumbotron from "react-bootstrap/Jumbotron";
 ReactDOM.render(
   <BrowserRouter> 
-  <App />
-  <AdminApp />
+  <App/>
+ 
   </BrowserRouter>,
     document.getElementById('root')
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import validator from 'validator';
+
 class FormValidator {
     constructor(validations) {
         this.validations = validations;
