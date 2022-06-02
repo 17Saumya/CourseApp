@@ -1,2 +1,2 @@
-const base_url="http://localhost:8080";
+const base_url="https://spring-courseapp.herokuapp.com/";
 export default base_url;
